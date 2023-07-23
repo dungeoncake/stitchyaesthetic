@@ -55,7 +55,7 @@ body {
 }
 
 .cap {
-	max-width: 23vw; 
+	max-width: 35vw; 
 }
 
 @keyframes popin {
@@ -118,8 +118,4 @@ a {
 
 .cardmod {
 	min-width: 25vw;
-}
-
-.redu {
-	max-height: 25vh;
 }
