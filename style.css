@@ -133,7 +133,6 @@ p {
 
 /*PRODUCTS*/
 main {
-	padding: 20px;
 	background-color: hotpink;
 	display: flex;
 	flex-wrap: wrap;
