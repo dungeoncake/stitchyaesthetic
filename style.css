@@ -81,11 +81,11 @@ li a {
 .sticky {
     position: fixed;
     top: 0;
-    width: 100vw;
 }
 
 .main-nav {
     display: flex;
+	width: 100vw;	
     list-style: none;
     font-size: 0.7em;
     margin: 0; 
