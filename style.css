@@ -288,6 +288,7 @@ footer {
 
 i a {
 	color: white;
+	font-family: agdasima;
 }
 
 @media only screen and (max-width: 600px) {
