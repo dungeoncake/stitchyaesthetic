@@ -1,0 +1,299 @@
+html, body {
+	margin: auto 0;
+	font-family: agdasima;
+	height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+	background: url(sbg.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+	float: right;
+	color: cyan;
+	font-weight: 800;
+	font-size: 10em;
+	text-align: justify; /* For Edge */
+    -moz-text-align-last: right; /* For Firefox prior 58.0 */
+    text-align-last: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+	h1 {
+		font-size: 25vw;
+		padding: 0;
+	}
+}
+
+@font-face {
+	font-family: agdasima;
+	src: url(Agdasima-Regular.ttf);
+}
+
+.first {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+	align-content: center;
+}
+
+
+.panel {
+	height: 100vh;
+	background-color: hotpink;
+	border-radius: 10px;
+}
+
+.buff {
+	height: 40vh;
+}
+
+.mbuff {
+	height: 10vh;
+}
+
+.zone {
+	width: 100vw;
+	cursor: pointer;
+	font-size: 2em;
+	transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*NAV*/
+li a {
+	color: hotpink;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.main-nav {
+    display: flex;
+    background-color: cyan;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0; 
+    transition: top 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.cyan {
+	background: cyan;
+}
+
+/*ABOUT*/
+
+.float {
+	float: left;
+}
+
+img {
+	max-width: 60vw;
+	padding: 3px;
+	margin: 5px;
+}
+
+p {
+	padding: 1%;
+	color: cyan;
+}
+
+/*PRODUCTS*/
+main {
+	background-color: hotpink;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.card img {
+	max-width: 90%;
+	margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: cyan;
+  text-align: center;
+  font-family: inherit;
+}
+
+@media only screen and (max-width: 1500px) {
+    .card {
+        max-width: 300px;
+        font-size: 0.9em;
+        margin: 10px;
+    }
+    h2 {
+    	font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        max-width: 300px;
+        font-size: 0.8em;
+        margin: 5px;
+    }
+    h2 {
+    	font-size: 1.5em;
+    }
+}
+
+
+.card p {
+	color: hotpink;
+	font-family: inherit;
+	font-size: 0.7em;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.9em;
+  font-family: inherit;
+}
+
+.card:hover {
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*NEWS*/
+h3 {
+	color: cyan;
+}
+
+.news {
+	background-color: hotpink;
+	border-radius: 1%;
+	display: grid;
+	gap: 5%;
+	grid-template-rows: repeat(2, 1fr);
+	width: 100%;
+}
+
+
+
+.npost {
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100vw;
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.npost {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+}
+
+.npost p {
+	color: cyan;
+	font-size: 0.8em;
+}
+
+.npost img {
+	max-width: 300px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .npost p {
+        font-size: 0.7em;
+        margin: 10px;
+    }
+    h3 {
+    	font-size: 1em;
+    }
+}
+
+/*CONTACT*/
+.mail {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: hotpink;
+	width: 100%;
+	height: 100%;
+}
+
+input {
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 1rem;
+}
+
+/*FOOTER*/
+footer {
+	cursor: pointer;
+	border-radius: 1%;
+	display: grid;
+	gap: 1%;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: hotpink;
+	padding: 10px;
+}
+
+i a {
+	color: white;
+	font-family: agdasima;
+}
+
+@media only screen and (max-width: 600px) {
+	footer {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, 1fr);
+	}
+}
