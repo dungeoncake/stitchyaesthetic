@@ -1,8 +1,4 @@
-html {
-	margin: 0;
-}
-
-body {
+html, body {
 	margin: 0;
 	font-family: agdasima;
 	height: 100vh;
