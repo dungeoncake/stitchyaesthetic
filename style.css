@@ -255,7 +255,7 @@ h3 {
 
 .news {
 	background-color: #f8f398;
-	border-radius: 1%;
+	border-radius: 10px;
 	display: grid;
 	gap: 5%;
 	grid-template-rows: repeat(2, 1fr);
