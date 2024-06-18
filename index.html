@@ -1,109 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Stitchy Aesthetic</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Stitchy Aesthetic</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <h1 class="pointer">Stitchy Aesthetic</h1>
+            <div id="buttons">
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <hr class="hrnav">
+        </nav>
+        <div id="contentbox">
+            <div class="buffer"></div>
+            <article id="about">
+                <img src="love.webp" id="biopic" alt="Artist behind Stitchy Aesthetic">
+                <p class="pointer">
+                    Stitchy Aesthetic started in the summer of 2017 when I rediscovered my love of cross-stitch. I actually started cross-stitching when I was 8 years old - some kind relative got me a kit, and I was hooked immediately! But it wasn't until many years later that I started coming up with my own designs, and developing my own personal aesthetic and style.<br><br>
+                    I started out making some little stitches for my own walls and for my closest friends, but you can only push so much stitchery on people before you run out of walls to fill. The next step seemed to be to start selling, so here we are.<br><br>
+                    I hope you like my style! I love coming up with designs to make people's stitchy dreams come true - whether you're looking for patterns and kits for your own stitching craft, or you want a handmade stitch straight from my home to yours, I want to know: what would you put on a cross-stitch?
+                </p>
+            </article>
+            <div class="buffer"></div>
+            <main id="products">
+                <div class="card">
+                    <img src="lone.webp" alt="Finished Stitching">
+                    <h2 class="pointer">Finished Stitching</h2>
+                    <p class="pointer">Get your own hand-stitched copy of any of my original designs, in any colors you choose! All finished stitches can be shipped in a simple black frame, or sent unframed to be mounted however you prefer
+                    </p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970499" target="_blank">Order</a></button></p>
+                </div>
 
-<body>
-	<nav class="sidebar" id="mySidebar">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&raquo;</a>
-		<a href="#about">About</a>
-	    <a href="#products">Products</a>
-	    <a href="#news">News</a>
-		<a href="#contacts">Contact</a>
-	</nav>
-	<button class="openbtn" onclick="openNav()">&laquo;</button>
-		<article class="zone panel first animate_animated animate__fadeIn">
-			<h1 class="animate__animated animate__fadeInRight">Stitchy<br> Aesthetic</h1>
-		</article>
-		<div class="buff"></div>
-		<article class="zone panel" id="about">
-			<img class="float" src="love.webp" alt="Artist behind Stitchy Aesthetic">
-			<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</article>
-		<div class="buff"></div>
-		<main class="zone" id="products">
-			<div class="card">
-				<img src="lone.webp" alt="Finished Stitch">
-				<h2>Finished Stitches</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-				<p><button><a href="https://www.etsy.com/ca/shop/StitchyAesthetic?section_id=21970499" target="_blank">Order</a></button></p>
-			</div>
+                <div class="card">
+                    <img src="ltwo.webp" alt="DIY Kit">
+                    <h2 class="pointer">DIY Kit</h2>
+                    <p class="pointer">All our DIY kits come with a full-color printed pattern, 14-count white aida cloth, needle, bobbins and embroidery floss in all required colors. Optionally, you can add a 5" plastic embroidery hoop as stitching supper or a suitably sized frame to display your finished work</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=27675364" target="_blank">Order</a></button></p>
+                </div>
 
-			<div class="card">
-				<img src="ltwo.webp" alt="DIY Kit">
-				<h2>DIY Kits</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-				<p><button><a href="https://www.etsy.com/ca/shop/StitchyAesthetic?section_id=27675364" target="_blank">Order</a></button></p>
-			</div>
+                <div class="card">
+                    <img src="lthree.webp" alt="Patterns">
+                    <h2 class="pointer">Patterns</h2>
+                    <p class="pointer">Get instant gratification with a digital download pattern so you can stitch up any of my designs for yourself! All pattern purchases include both full-color and black-and-white versions</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21957484" target="_blank">Order</a></button></p>
+                </div>
 
-			<div class="card">
-				<img src="lthree.webp" alt="Pattern">
-				<h2>Patterns</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-				<p><button><a href="https://www.etsy.com/ca/shop/StitchyAesthetic?section_id=21957484" target="_blank">Order</a></button></p>
-			</div>
+                <div class="card">
+                    <img src="lfour.webp" alt="Custom Work">
+                    <h2 class="pointer">Custom Work</h2>
+                    <p class="pointer">I love coming up with new designs to match people's inspirations! Whether you have a very clear idea of what you want, or just some vague thoughts, I'd love to work with you to create your perfect stitch</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970501" target="_blank">Order</a></button></p>
+                </div>
+            </main>
+            <div class="buffer"></div>
 
-			<div class="card">
-				<img src="lfour.webp" alt="Custom Work">
-				<h2>Custom Works</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-				<p><button><a href="https://www.etsy.com/ca/shop/StitchyAesthetic?section_id=21970501" target="_blank">Order</a></button></p>
-			</div>
-		</main>
-		<div class="buff"></div>
-		<article class="zone news fcen" id="news">
+            <!--image gallery-->
+            <div class="row" id="gallery">
+                <div class="column">
+                    <img src="gallery/lemon.webp" alt="">
+                    <img src="gallery/dontbe.webp" alt="">
+                    <img src="gallery/embraceambiguity.webp" alt="">
+                    <img src="gallery/gatherparty.webp" alt="">
+                    <img src="gallery/gaybowser.webp" alt="">
+                    <img src="gallery/ghosts.webp" alt="">
+                </div>
+                <div class="column">
+                    <img src="gallery/homequeerhome.webp" alt="">
+                    <img src="gallery/inothingyou.webp" alt="">
+                    <img src="gallery/ifquestions.webp" alt="">
+                    <img src="gallery/ladyboss.webp" alt="">
+                    <img src="gallery/gardenshed.webp" alt="">
+                    <img src="gallery/lifegood.webp" alt="">
+                </div>
+                <div class="column">
+                    <img src="gallery/maxeffort.webp" alt="">
+                    <img src="gallery/operanch.webp" alt="">
+                    <img src="gallery/pukeonyou.webp" alt="">
+                    <img src="gallery/scars.webp" alt="">
+                    <img src="gallery/ireallylikeu.webp" alt="">
+                    <img src="gallery/takeyomeds.webp" alt="">
+                </div>
+                <div class="column">
+                    <img src="gallery/upgood.webp" alt="">
+                    <img src="gallery/weird.webp" alt="">
+                    <img src="gallery/whaleshit.webp" alt="">
+                    <img src="gallery/whatxp.webp" alt="">
+                    <img src="gallery/whyoffice.webp" alt="">
+                    <img src="gallery/wontbeafraid.webp" alt="">
+                </div>
+            </div>
+            <!--image gallery ends-->
 
-			<iframe src="news.html" style="height:90vh;width:90vw;" title="Stitchy News"></iframe>
-
-		</article>
-		
-		<div class="mbuff"></div>
-		<footer id="contacts">
-			<div class="">
-				<form action="mailto:recipient@example.com" method="get" enctype="text/plain">
-				    Subject:<br>
-				    <input type="text" name="subject" placeholder="Your Name"><br>
-				    Email:<br>
-				    <input type="email" name="email" placeholder="Your Email"><br>
-				    Message:<br>
-				    <textarea name="body" rows="8" cols="40" placeholder="Your Message"></textarea><br>
-				    <input type="submit" value="Send">
-				  </form><br>
-			</div>
-
-			<i class="fa fa-instagram" style="font-size:2em;color:#e46161;"><a href="https://www.instagram.com/stitchyaesthetic/?hl=en">stitchyaesthetic</a></i>
-		</footer>
-
-	<script type="text/javascript" src="scripts.js"></script>
-</body>
+            <div class="buffer"></div>
+            <footer id="contact">
+                <h2 class="pointer">Contact</h2>
+                <hr class="hrcon">
+                <div id="socials">
+                    <p id="email" class="pointer">
+                        Email:<a href="mailto:stitchyaesthetic@gmail.com">  stitchyaesthetic@gmail.com</a>
+                    </p>
+                    <i class="fa fa-instagram" style="font-size:2em;color:#e46161;">
+                        <a href="https://www.instagram.com/stitchyaesthetic/?hl=en">stitchyaesthetic</a>
+                    </i>
+                </div>
+                <div class="holder">
+                    <p id="dcred" class="pointer">
+                        design by Johnnyclicks
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
