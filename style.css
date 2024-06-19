@@ -37,7 +37,7 @@ body, html {
     position: sticky;
     width: 100vw;
     top: 0;
-    padding-bottom: 0.5rem;
+    padding: 0 1rem 0.5rem 1rem; 
     z-index: 4;
 }
 
@@ -76,7 +76,7 @@ i:hover {
 
 #buttons {
     padding: 1.5rem 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: end;
 }
