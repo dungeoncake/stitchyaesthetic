@@ -41,6 +41,10 @@ body, html {
     z-index: 4;
 }
 
+i {
+    padding: 0.5rem;
+}
+
 #buttons a:hover {
     transform: scale(1.2);
 }
@@ -71,7 +75,7 @@ i:hover {
 }
 
 #buttons {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     width: 100vw;
     display: flex;
     justify-content: end;
