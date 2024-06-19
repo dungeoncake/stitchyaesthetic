@@ -13,11 +13,13 @@
 }
 
 body, html {
-    background: url(sbg.webp) no-repeat center center fixed;
+    /*background: url(sbg.webp) no-repeat center center fixed;*/
+    background: #6decb9; 
     background-size: cover;
     scrollbar-width: none; /* for Firefox */
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    font-family: agdasima, sans-serif;
+    /*font-family: agdasima, sans-serif;*/
+    font-family: "Kumbh Sans", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -28,14 +30,26 @@ body, html {
 }
 
 #navbar {
-    /*background-color: rgba(63, 197, 240, 1);*/
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(63, 197, 240, 1);
+    /*background-color: rgba(255, 255, 255, 1);*/
     position: -webkit-sticky;
     position: sticky;
     width: 100vw;
-    padding: 1em;
+    padding: 1rem;
     top: 0;
     z-index: 4;
+}
+
+#buttons a:hover {
+    transform: scale(1.2);
+}
+
+#email:hover {
+    transform: scale(1.2);
+}
+
+i:hover {
+    transform: scale(1.2);
 }
 
 .hrnav {
@@ -45,33 +59,35 @@ body, html {
 
 @media screen and (max-width: 1200px) {
     .hrnav {
-        max-width: 50vw;
+        max-width: 75vw;
+        margin: auto;
     }
 }
 
 .buffer {
-    width: 100%;
+    width: 100vw;
     height: 20vh;
 }
 
 #buttons {
+    width: 100%;
     display: flex;
     justify-content: end;
 }
 
 #buttons a {
-    margin: 0 2em 0 1em;
-    font-size: 1.2em;
+    margin: 0 2rem 0 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    color: rgba(0, 0, 0, 1);
-    /*color: rgba(238, 245, 178, 1);*/
+    /*color: rgba(0, 0, 0, 1);*/
+    color: rgba(238, 245, 178, 1);
 }
 
 h1 {
     text-align: center;
-    font-size: 5em;
-    /*color: rgba(238, 245, 178, 1);*/
-    color: rgba(0, 0, 0, 1);
+    font-size: 5rem;
+    color: rgba(238, 245, 178, 1);
+    /*color: rgba(0, 0, 0, 1);*/
     animation: fadeIn 2s;
 }
 
@@ -80,29 +96,46 @@ h1 {
     100% {opacity: 1;}
 }
 
+@media screen and (max-width: 1500px) {
+    h1 {
+        font-size: 3rem;
+    }
+    #buttons {
+        justify-content: center;
+    }
+    #buttons a {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+}
+
 #biopic {
     top: 0;
     max-height: 90%;
+    max-width: 90%;
     float: right;
-    margin: 1em;
+    margin: 1rem;
     border-radius: 10px;
 }
 
 #about {
-    padding: 1em;
-    /*background-color: rgba(238, 245, 178, 0.9);*/
-    background-color: rgba(220, 220, 220, 0.9);
+    width: 100vw;
+    padding: 1rem;
+    background-color: rgba(238, 245, 178, 0.9);
+    /*background-color: rgba(220, 220, 220, 0.9);*/
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #about p {
     margin: 2% 1% 2% 1%;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 #products {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -117,11 +150,41 @@ h1 {
   max-width: 400px;
   margin: 10px;
   border-radius: 10px;
-  /*background-color: rgba(238, 245, 178, 1);*/
-  background-color: rgba(220, 220, 220, 1);
+  background-color: rgba(238, 245, 178, 1);
+  /*background-color: rgba(220, 220, 220, 1);*/
   text-align: center;
   font-family: inherit;
-  padding: 1em;
+  padding: 1rem;
+}
+
+.card p {
+    margin: 1rem;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 1500px) {
+    .card {
+        max-width: 40vw;
+        font-size: 0.9rem;
+        margin: 10px;
+    }
+    h2 {
+    	font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        max-width: 90vw;
+        font-size: 0.8rem;
+        margin: 5px;
+    }
+    h2 {
+    	font-size: 1.5rem;
+    }
 }
 
 a {
@@ -130,15 +193,15 @@ a {
 }
 
 #contact {
-    /*background-color: rgba(63, 197, 240, 1);*/
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(63, 197, 240, 1);
+    /*background-color: rgba(255, 255, 255, 1);*/
     color: rgba(0, 0, 0, 1);
-    width: 100%;
-    padding: 1em;
+    width: 100vw;
+    padding: 1rem;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     left: 0;
 }
 
@@ -153,21 +216,27 @@ h2 {
     }
 }
 
+footer h2 {
+    color: rgba(238, 245, 178, 1);
+}
+
 #socials {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    color: rgba(0, 0, 0, 1)
-    /*color: rgba(238, 245, 178, 1);*/
+    /*color: rgba(0, 0, 0, 1)*/
+    color: rgba(238, 245, 178, 1);
+    padding: 1rem;
 }
 
 #email {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 #dcred {
-    margin: 0 1em;
+    margin: 0 1rem;
 }
 
 .holder {
@@ -179,9 +248,10 @@ h2 {
 /*GALLERY*/
 
 #gallery {
-    /*background-color: rgba(238, 245, 178, 0.6);*/
-    background-color: rgba(220, 220, 220, 0.8);
-    padding: 1em;
+    background-color: rgba(238, 245, 178, 0.6);
+    /*background-color: rgba(220, 220, 220, 0.8);*/
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .row {
