@@ -14,8 +14,9 @@
 
 body, html {
     /*background: url(sbg.webp) no-repeat center center fixed;*/
-    background: #6decb9; 
-    background-size: cover;
+    background: #6decb9;
+    width: 100vw;
+    /*background-size: cover;*/
     scrollbar-width: none; /* for Firefox */
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     /*font-family: agdasima, sans-serif;*/
@@ -35,8 +36,8 @@ body, html {
     position: -webkit-sticky;
     position: sticky;
     width: 100vw;
-    padding: 1rem;
     top: 0;
+    padding-bottom: 0.5rem;
     z-index: 4;
 }
 
@@ -70,7 +71,8 @@ i:hover {
 }
 
 #buttons {
-    width: 100%;
+    padding: 1rem 0;
+    width: 100vw;
     display: flex;
     justify-content: end;
 }
@@ -196,7 +198,6 @@ a {
     /*background-color: rgba(255, 255, 255, 1);*/
     color: rgba(0, 0, 0, 1);
     width: 100vw;
-    padding: 1rem;
 }
 
 h2 {
@@ -232,6 +233,7 @@ footer h2 {
 #email {
     font-size: 1.2rem;
     font-weight: 600;
+    margin: 1rem 0;
 }
 
 #dcred {
