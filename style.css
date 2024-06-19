@@ -70,7 +70,7 @@ i:hover {
 }
 
 #buttons {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: end;
 }
