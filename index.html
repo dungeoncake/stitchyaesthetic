@@ -6,20 +6,57 @@
         <title>Stitchy Aesthetic</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav id="navbar">
             <h1 class="pointer">Stitchy Aesthetic</h1>
             <div id="buttons">
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#contact">Contact</a>
+                <a href="#productsT">Products</a>
+                <a href="#aboutT">About</a>
+                <a href="#galleryT">Gallery</a>
+                <a href="#contactT">Contact</a>
             </div>
             <hr class="hrnav">
         </nav>
         <div id="contentbox">
-            <div class="buffer"></div>
+            <div class="buffer" id="productsT"></div>
+
+            <main id="products">
+                <div class="card">
+                    <img src="lone.webp" alt="Finished Stitching">
+                    <h2 class="pointer">Finished Stitching</h2>
+                    <p class="pointer">Get your own hand-stitched copy of any of my original designs, in any colors you choose! All finished stitches can be shipped in a simple black frame, or sent unframed to be mounted however you prefer
+                    </p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970499" target="_blank">Shop</a></button></p>
+                </div>
+
+                <div class="card">
+                    <img src="ltwo.webp" alt="DIY Kits">
+                    <h2 class="pointer">DIY Kits</h2>
+                    <p class="pointer">All our DIY kits come with a full-color printed pattern, 14-count white aida cloth, needle, bobbins and embroidery floss in all required colors. Optionally, you can add a 5" plastic embroidery hoop as stitching supper or a suitably sized frame to display your finished work</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=27675364" target="_blank">Shop</a></button></p>
+                </div>
+
+                <div class="card">
+                    <img src="lthree.webp" alt="Patterns">
+                    <h2 class="pointer">Patterns</h2>
+                    <p class="pointer">Get instant gratification with a digital download pattern so you can stitch up any of my designs for yourself! All pattern purchases include both full-color and black-and-white versions</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21957484" target="_blank">Shop</a></button></p>
+                </div>
+
+                <div class="card">
+                    <img src="lfour.webp" alt="Custom Work">
+                    <h2 class="pointer">Custom Work</h2>
+                    <p class="pointer">I love coming up with new designs to match people's inspirations! Whether you have a very clear idea of what you want, or just some vague thoughts, I'd love to work with you to create your perfect stitch</p>
+                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970501" target="_blank">Shop</a></button></p>
+                </div>
+            </main>
+
+            <div class="buffer" id="aboutT"></div>
+
             <article id="about">
                 <img src="love.webp" id="biopic" alt="Artist behind Stitchy Aesthetic">
                 <p class="pointer">
@@ -28,77 +65,47 @@
                     I hope you like my style! I love coming up with designs to make people's stitchy dreams come true - whether you're looking for patterns and kits for your own stitching craft, or you want a handmade stitch straight from my home to yours, I want to know: what would you put on a cross-stitch?
                 </p>
             </article>
-            <div class="buffer"></div>
-            <main id="products">
-                <div class="card">
-                    <img src="lone.webp" alt="Finished Stitching">
-                    <h2 class="pointer">Finished Stitching</h2>
-                    <p class="pointer">Get your own hand-stitched copy of any of my original designs, in any colors you choose! All finished stitches can be shipped in a simple black frame, or sent unframed to be mounted however you prefer
-                    </p>
-                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970499" target="_blank">Order</a></button></p>
-                </div>
-
-                <div class="card">
-                    <img src="ltwo.webp" alt="DIY Kit">
-                    <h2 class="pointer">DIY Kit</h2>
-                    <p class="pointer">All our DIY kits come with a full-color printed pattern, 14-count white aida cloth, needle, bobbins and embroidery floss in all required colors. Optionally, you can add a 5" plastic embroidery hoop as stitching supper or a suitably sized frame to display your finished work</p>
-                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=27675364" target="_blank">Order</a></button></p>
-                </div>
-
-                <div class="card">
-                    <img src="lthree.webp" alt="Patterns">
-                    <h2 class="pointer">Patterns</h2>
-                    <p class="pointer">Get instant gratification with a digital download pattern so you can stitch up any of my designs for yourself! All pattern purchases include both full-color and black-and-white versions</p>
-                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21957484" target="_blank">Order</a></button></p>
-                </div>
-
-                <div class="card">
-                    <img src="lfour.webp" alt="Custom Work">
-                    <h2 class="pointer">Custom Work</h2>
-                    <p class="pointer">I love coming up with new designs to match people's inspirations! Whether you have a very clear idea of what you want, or just some vague thoughts, I'd love to work with you to create your perfect stitch</p>
-                    <p><button><a href="https://stitchyaesthetic.etsy.com/?etsrc=sdt&section_id=21970501" target="_blank">Order</a></button></p>
-                </div>
-            </main>
-            <div class="buffer"></div>
+            
+            <div class="buffer" id="galleryT"></div>
 
             <!--image gallery-->
             <div class="row" id="gallery">
                 <div class="column">
-                    <img src="lemon.webp" alt="">
-                    <img src="dontbe.webp" alt="">
-                    <img src="embraceambiguity.webp" alt="">
-                    <img src="gatherparty.webp" alt="">
-                    <img src="gaybowser.webp" alt="">
-                    <img src="ghosts.webp" alt="">
+                    <img src="gallery/lemon.webp" alt="">
+                    <img src="gallery/dontbe.webp" alt="">
+                    <img src="gallery/embraceambiguity.webp" alt="">
+                    <img src="gallery/gatherparty.webp" alt="">
+                    <img src="gallery/gaybowser.webp" alt="">
+                    <img src="gallery/ghosts.webp" alt="">
                 </div>
                 <div class="column">
-                    <img src="homequeerhome.webp" alt="">
-                    <img src="inothingyou.webp" alt="">
-                    <img src="ifquestions.webp" alt="">
-                    <img src="ladyboss.webp" alt="">
-                    <img src="gardenshed.webp" alt="">
-                    <img src="lifegood.webp" alt="">
+                    <img src="gallery/homequeerhome.webp" alt="">
+                    <img src="gallery/inothingyou.webp" alt="">
+                    <img src="gallery/ifquestions.webp" alt="">
+                    <img src="gallery/ladyboss.webp" alt="">
+                    <img src="gallery/gardenshed.webp" alt="">
+                    <img src="gallery/lifegood.webp" alt="">
                 </div>
                 <div class="column">
-                    <img src="maxeffort.webp" alt="">
-                    <img src="operanch.webp" alt="">
-                    <img src="pukeonyou.webp" alt="">
-                    <img src="scars.webp" alt="">
-                    <img src="ireallylikeu.webp" alt="">
-                    <img src="takeyomeds.webp" alt="">
+                    <img src="gallery/maxeffort.webp" alt="">
+                    <img src="gallery/operanch.webp" alt="">
+                    <img src="gallery/pukeonyou.webp" alt="">
+                    <img src="gallery/scars.webp" alt="">
+                    <img src="gallery/ireallylikeu.webp" alt="">
+                    <img src="gallery/takeyomeds.webp" alt="">
                 </div>
                 <div class="column">
-                    <img src="upgood.webp" alt="">
-                    <img src="weird.webp" alt="">
-                    <img src="whaleshit.webp" alt="">
-                    <img src="whatxp.webp" alt="">
-                    <img src="whyoffice.webp" alt="">
-                    <img src="wontbeafraid.webp" alt="">
+                    <img src="gallery/upgood.webp" alt="">
+                    <img src="gallery/weird.webp" alt="">
+                    <img src="gallery/whaleshit.webp" alt="">
+                    <img src="gallery/whatxp.webp" alt="">
+                    <img src="gallery/whyoffice.webp" alt="">
+                    <img src="gallery/wontbeafraid.webp" alt="">
                 </div>
             </div>
             <!--image gallery ends-->
 
-            <div class="buffer"></div>
+            <div class="buffer" id="contactT"></div>
             <footer id="contact">
                 <h2 class="pointer">Contact</h2>
                 <hr class="hrcon">
