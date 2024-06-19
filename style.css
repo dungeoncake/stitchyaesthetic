@@ -71,6 +71,7 @@ i:hover {
 
 #buttons {
     width: 100vw;
+    padding: 0.5rem;
     display: flex;
     justify-content: end;
 }
