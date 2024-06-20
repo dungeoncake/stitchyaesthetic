@@ -108,6 +108,7 @@ h1 {
     }
     #buttons {
         justify-content: center;
+        padding-left: 1rem;
     }
     #buttons a {
         font-size: 0.8rem;
