@@ -103,8 +103,11 @@ h1 {
 }
 
 @media screen and (max-width: 1200px) {
+    #navbar {
+        padding-top: 0.5rem;
+    }
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     #buttons {
         justify-content: center;
@@ -221,11 +224,13 @@ h2 {
 
 @media screen and (max-width: 1200px) {
     .hrcon {
-        max-width: 20vw;
+        max-width: 25vw;
+        margin-left: 0.3rem;
     }
 }
 
 footer h2 {
+    padding-left: 0.3rem;
     color: rgba(238, 245, 178, 1);
 }
 
@@ -245,7 +250,13 @@ footer h2 {
     margin: 1rem 0;
 }
 
+i a {
+    color: rgba(238, 245, 178, 1);
+}
+
 #dcred {
+    color: rgba(238, 245, 178, 0.5);
+    font-size: 0.5rem;
     margin: 0 1rem;
 }
 
@@ -253,6 +264,7 @@ footer h2 {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 0.5rem;
 }
 
 /*GALLERY*/
